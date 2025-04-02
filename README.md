@@ -10,13 +10,11 @@ Os dados foram coletados de formulários de avaliação de risco, contendo infor
 
 O projeto foi dividido em 4 etapas principais:
 
-## 📊 Preparação e Organização dos Dados
+- 📊 Preparação e Organização dos Dados
 
-## 🔍 Análise Inicial e Exploração
+- 🔍 Análise Inicial e Exploração
 
-## 📈 Visualização e Correlações
-
-## 🤖 Modelagem Preditiva e Clusterização
+ - 🤖 Modelagem Preditiva e Clusterização
 
 # 🔧 1. Preparação e Organização dos Dados / Qualidade de Dados (Etapas 1 e 2)
 Objetivo
@@ -85,7 +83,7 @@ Relação entre Separação Recente e Violência: Mulheres que tentam se separar
 
 Impacto do Uso de Álcool/Drogas: Agressores sob efeito de substâncias cometem mais violência grave.
 
-## 🤖 4. Modelagem Preditiva e Clusterização
+# 🤖 3. Modelagem Preditiva e Clusterização
 Após essa análise, apliquei o dataset em 2 modelos de aprendizagem de máquina supervisionada com o intuito de, com base nas características da situação da vítima perante o agressor, prever qual seria o nível de violência sofrido por ela. Para isso utilizei primeiramente o XGBoost e em seguida o Random Forest Regressor.
 
 ## 📌 Modelo 1: Regressão (XGBoost)
